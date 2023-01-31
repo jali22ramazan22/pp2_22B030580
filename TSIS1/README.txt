@@ -1,0 +1,1 @@
+JALIL RAMAZAN, 22B030580. j_ramazan@kbtu.kz.
