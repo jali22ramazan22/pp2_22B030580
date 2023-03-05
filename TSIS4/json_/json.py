@@ -1,7 +1,7 @@
 import json
 
 with open("sample-data.json", 'r') as str_json:
-    data = json.loads(str_json)
+    data = json.loads(str_json.read())
 
 print("""
 
@@ -21,4 +21,4 @@ for it in data["imdata"]:
 
     print(it["l1PhysIf"]["attributes"]["mtu"])
 
-    str_json.close()
+str_json.close()
